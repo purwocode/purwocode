@@ -1,0 +1,62 @@
+name: Auto commit
+
+on:
+  push:
+    branches:
+      - master
+
+  schedule:
+    - cron: "* * * * *"  # Tiap ~5 menit
+
+  workflow_dispatch:  # Bisa manual run
+
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: DEBUG
+        run: echo "::debug::Ref = ${{github.ref}}"
+
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Modify last update
+        run: |
+          d=$(date '+%Y-%m-%dT%H:%M:%SZ')
+          echo $d > LAST_UPDATED
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "zadbagus7@gmail.com"
+          git config --local user.name "purwocode"
+
+          arr=(
+            "chore(bot): 🚀 auto commit"
+            "chore(bot): ✨ auto commit"
+            "chore(bot): 👿 auto commit"
+            "chore(bot): 💩 auto commit"
+            "chore(bot): 🙏 auto commit"
+            "chore(bot): 🙈 auto commit"
+            "chore(bot): 🐐 auto commit"
+            "chore(bot): 🤖 auto commit"
+            "chore(bot): 🟩 auto commit"
+            "chore(bot): 👻 auto commit"
+          )
+
+          num_commits=$(( (RANDOM % 3 + 1) * 4 ))
+
+          for ((i = 0; i < num_commits; i++)); do
+            rand=$((RANDOM % ${#arr[@]}))
+            echo "Making commit: ${arr[$rand]}"
+            echo "Update $i at $(date)" > "commit_file_$i.txt"
+            git add -A
+            git commit -m "${arr[$rand]}"
+          done
+
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          directory: "."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
