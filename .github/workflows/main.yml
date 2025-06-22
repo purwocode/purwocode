@@ -4,23 +4,21 @@ on:
   push:
     branches:
       - master
-
+      
   schedule:
-    - cron: "* * * * *"  # Tiap ~5 menit
-
-  workflow_dispatch:  # Bisa manual run
+    - cron: "* * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
 
 jobs:
   auto_commit:
     runs-on: ubuntu-latest
     steps:
-      - name: DEBUG
+      - name: DEBUG 
         run: echo "::debug::Ref = ${{github.ref}}"
-
-      - uses: actions/checkout@v3
+      
+      - uses: actions/checkout@v3      
         with:
-          persist-credentials: false
-          fetch-depth: 0
+         persist-credentials: false
+         fetch-depth: 0
 
       - name: Modify last update
         run: |
@@ -29,9 +27,11 @@ jobs:
 
       - name: Commit changes
         run: |
+          # Set user info for git commit
           git config --local user.email "zadbagus7@gmail.com"
           git config --local user.name "purwocode"
-
+          
+          # Define possible commit messages
           arr=(
             "chore(bot): 🚀 auto commit"
             "chore(bot): ✨ auto commit"
@@ -44,13 +44,15 @@ jobs:
             "chore(bot): 🟩 auto commit"
             "chore(bot): 👻 auto commit"
           )
+          
+          # Randomly choose a number of commits: 4, 10, or 20
+          num_commits=$(( (RANDOM % 3 + 1) * 4 )) # This will give 4, 8, 12 (can adjust multiplier to get other values)
 
-          num_commits=$(( (RANDOM % 3 + 1) * 4 ))
-
+          # Loop to make the random number of commits
           for ((i = 0; i < num_commits; i++)); do
             rand=$((RANDOM % ${#arr[@]}))
             echo "Making commit: ${arr[$rand]}"
-            echo "Update $i at $(date)" > "commit_file_$i.txt"
+            echo "Update $i at $(date)" > "commit_file_$i.txt"  # create a file to commit with a unique name
             git add -A
             git commit -m "${arr[$rand]}"
           done
