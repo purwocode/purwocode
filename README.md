@@ -1,4 +1,4 @@
-# 👋 Hi there!
+
 
 ## 📊 GitHub Stats
 
@@ -15,7 +15,7 @@ Currently, I develop tools for:
 - Domain WHOIS checks
 - IP geolocation & server location analysis
 - Web audit automation
-- Website traffic anomalies
+- Web Analyst
 - Digital forensics
 
 I am always learning new technologies, love optimization challenges, and aim to continuously improve the quality of my code.
