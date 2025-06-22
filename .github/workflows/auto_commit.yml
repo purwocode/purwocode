@@ -3,7 +3,7 @@ name: Auto commit
 on:
   push:
     branches:
-      - master
+      - main
 
   schedule:
     - cron: "* * * * *"  # Tiap ~5 menit
