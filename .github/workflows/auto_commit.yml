@@ -6,7 +6,7 @@ on:
       - main
 
   schedule:
-    - cron: "* * * * *"  # Tiap ~5 menit
+    - cron: "0 7,9,12,13,14 * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
 
   workflow_dispatch:  # Bisa manual run
 
