@@ -18,6 +18,6 @@ Currently, I develop tools for:
 - IP geolocation & server location analysis
 - Web audit automation
 - Web Analyst
-
+- Digital Forensics
 
 I am always learning new technologies, love optimization challenges, and aim to continuously improve the quality of my code.
