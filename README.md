@@ -36,52 +36,87 @@
 
 ---
 
-## Programming Languages Statistics
+### > sudo cat /etc/languages.conf (Programming Stack)
 
 [![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=purwocode&show_icons=true&theme=transparent)](https://github.com/purwocode)
 
 [![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=purwocode&layout=compact&theme=transparent)](https://github.com/purwocode)
 
-### GitHub Streak
+### > git log --streak
 
 [![GitHub Streak](https://github-readme-stats-fast.vercel.app/api/streak?username=purwocode&theme=transparent)](https://github.com/purwocode)
 
-### Tech Stack Favorites
+---
 
-**Web Development**
+### > cat /toolkit/stack.conf
+
+**🖥️ Web Exploitation Stack**
 ```
-┌─────────────────────────────┐
-│ Frontend: JS + HTML/CSS     │
-│ Backend:  Python + PHP      │
-│ Database: SQL + NoSQL       │
-│ Deployment: Docker + Linux  │
-└─────────────────────────────┘
+╔════════════════════════════════════╗
+║ Frontend    │ JavaScript + HTML5   ║
+║ Backend     │ Python + PHP         ║
+║ Database    │ SQL + NoSQL Chains   ║
+║ Deployment  │ Docker + Linux Env   ║
+║ Protocol    │ REST APIs + WebSock  ║
+╚════════════════════════════════════╝
 ```
 
-**Automation & Tools**
+**⚡ Automation & Exploitation**
 ```
-┌─────────────────────────────┐
-│ Python (Primary)            │
-│ Bash/Shell (System Level)   │
-│ PowerShell (Windows)        │
-│ Threading & Async           │
-└─────────────────────────────┘
+╔════════════════════════════════════╗
+║ Primary     │ Python 55.9%         ║
+║ Scripting   │ Bash/Shell/PowerSh   ║
+║ Concurrent  │ ThreadPool + Async   ║
+║ Debugging   │ WordPress + OSINT    ║
+║ Techniques  │ Fuzzing, Enumeration ║
+╚════════════════════════════════════╝
 ```
 
 ---
 
-## Animated Typing Cat Activity
+### > ./run_agent.sh (Animated Typing Cat Activity)
 
 ![Animated Typing Cat](cat-activity.svg)
 
 ---
 
-## Current Focus
+### > ./mission_briefing.sh
 
-- Building domain extraction & analysis tools
-- WordPress vulnerability scanning
-- Performance optimization
-- Open source contributions
+```
+🔴 ACTIVE MISSIONS:
+├─ ✓ Domain extraction & analysis automation
+├─ ✓ WordPress vulnerability detection (CVE-2026-63030/60137)
+├─ ✓ Performance optimization research
+├─ ✓ Open source contribution sprint
+└─ ✓ Building next-gen security tools
 
-Always excited to collaborate on interesting projects!
+🎯 NEXT TARGETS:
+├─ Advanced subdomain enumeration
+├─ Deep OSINT capabilities
+├─ Zero-day detection frameworks
+└─ Collaboration on ambitious projects
+```
+
+---
+
+### > echo "Let's collaborate!" && ./connect.sh
+
+```
+📧 Always ready for:
+  • Interesting security research
+  • Automation tool development  
+  • Performance challenges
+  • Building tools that matter
+
+💬 Find me: https://t.me/ucancallmezero
+```
+
+---
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║             🟢 STATUS: ONLINE & READY TO HACK             ║
+║  Last Commit: $(git log -1 --format=%ai) | Keep Coding!  ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
