@@ -1,0 +1,49 @@
+<svg width="100%" height="120" viewBox="0 0 500 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes walk {
+      0%, 100% { transform: translateX(0px); }
+      50% { transform: translateX(20px); }
+    }
+    @keyframes text-change {
+      0% { opacity: 1; }
+      24% { opacity: 1; }
+      25% { opacity: 0; }
+      50% { opacity: 0; }
+      51% { opacity: 1; }
+      74% { opacity: 1; }
+      75% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+    .cat { animation: walk 4s ease-in-out infinite; transform-origin: 50px 50px; }
+    .text1 { animation: text-change 4s ease-in-out infinite; }
+    .text2 { animation: text-change 4s ease-in-out infinite 1s; }
+    .text3 { animation: text-change 4s ease-in-out infinite 2s; }
+    .text4 { animation: text-change 4s ease-in-out infinite 3s; }
+  </style>
+  
+  <!-- Frame 1: Coding -->
+  <g class="cat">
+    <circle cx="50" cy="50" r="30" fill="#FDB4B4" stroke="#000" stroke-width="2"/>
+    <polygon points="30,20 20,0 35,15" fill="#FDB4B4" stroke="#000" stroke-width="2"/>
+    <polygon points="70,20 80,0 65,15" fill="#FDB4B4" stroke="#000" stroke-width="2"/>
+    <circle cx="40" cy="45" r="5" fill="#000"/>
+    <circle cx="60" cy="45" r="5" fill="#000"/>
+    <ellipse cx="50" cy="85" rx="25" ry="30" fill="#FDB4B4" stroke="#000" stroke-width="2"/>
+  </g>
+  
+  <text x="150" y="70" font-size="24" font-weight="bold" fill="#333" class="text1">
+    Coding...
+  </text>
+  
+  <text x="150" y="70" font-size="24" font-weight="bold" fill="#FF6B6B" class="text2">
+    Debugging...
+  </text>
+  
+  <text x="150" y="70" font-size="24" font-weight="bold" fill="#4ECDC4" class="text3">
+    Optimizing...
+  </text>
+  
+  <text x="150" y="70" font-size="24" font-weight="bold" fill="#45B7D1" class="text4">
+    Deploying...
+  </text>
+</svg>
