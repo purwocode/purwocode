@@ -22,59 +22,13 @@ I am always learning new technologies, love optimization challenges, and aim to 
 
 ## Programming Languages Statistics
 
-### Overall Distribution (Based on GitHub Repositories)
+[![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=purwocode&show_icons=true&theme=transparent)](https://github.com/purwocode)
 
-```
-Python           ████████████████████████████░░░░░░░░░░  55.9% (19 repos)
-PHP              ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  14.7% (5 repos)
-JavaScript       ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  11.8% (4 repos)
-Lua              ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.9% (2 repos)
-Shell/Bash       ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.9% (2 repos)
-Hack             ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.9% (2 repos)
-```
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=purwocode&layout=compact&theme=transparent)](https://github.com/purwocode)
 
-### Language Breakdown
+### GitHub Streak
 
-| Language | Repos | Proficiency | Usage |
-|----------|-------|-----------|-------|
-| Python | 19 | Mastery | Automation, Scripts, Tools, OSINT |
-| PHP | 5 | Advanced | Web Dev, Domain Extraction, WordPress |
-| JavaScript | 4 | Intermediate | Web Frontend, Automation Scripts |
-| Lua | 2 | Intermediate | Game Scripting, Tools |
-| Shell/Bash | 2 | Advanced | System Admin, Deployment |
-| Hack | 2 | Intermediate | WordPress/CMS Exploitation |
-
-### Key Skills
-
-- **Backend Development**: Python, PHP, Node.js
-- **Frontend Development**: JavaScript, HTML/CSS
-- **Scripting & Automation**: Bash, PowerShell, Python
-- **Database**: SQL, Database Optimization
-- **Tools & Frameworks**:
-  - Web Frameworks: Flask, Laravel
-  - Automation: Threading, Async/Await
-  - Security Tools: OWASP, Vulnerability Scanning
-  - Data Processing: Pandas, NumPy
-
-### Project Statistics
-
-```
-Total Repositories:     75
-Repositories with Lang: 34
-Primary Language:       Python (55.9%)
-Most Used Tech:         Automation, OSINT, Web Tools
-Specialization:         Security Tools, Web Exploitation
-```
-
-### Top Repositories
-
-- **DOMAIN-EXTRACTOR** - Python - Domain extraction & analysis
-- **Wordpress-MassExploit** - Python - WordPress vulnerability exploitation
-- **WHOIS-DOMAIN** - Python - WHOIS information gathering
-- **burning-wp** - Python - WordPress security scanner
-- **SUBDOMAIN-WITH-ASSETFINDER** - Python - Subdomain enumeration
-- **ROOT-DOMAIN-EXTRACTOR** - PHP - Root domain extraction tool
-- **WP-SCAN-SIMPLE** - Python - WordPress security scanning
+[![GitHub Streak](https://github-readme-stats-fast.vercel.app/api/streak?username=purwocode&theme=transparent)](https://github.com/purwocode)
 
 ### Tech Stack Favorites
 
