@@ -12,14 +12,12 @@
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2">
+    <td align="center" width="50%">
       <a href="https://github.com/purwocode">
         <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=purwocode&theme=github_dark" alt="GitHub Streak">
       </a>
     </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
+    <td align="center" width="50%">
       <a href="https://github.com/purwocode">
         <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=purwocode&layout=compact&theme=github_dark" alt="Top Languages">
       </a>
