@@ -42,7 +42,7 @@ I am always learning new technologies, love optimization challenges, and aim to 
 
 ---
 
-## Connect
+## Contact Me
 
 <div align="center">
   
