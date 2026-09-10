@@ -7,14 +7,21 @@
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/purwocode">
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=purwocode&show_icons=true&theme=transparent" alt="GitHub Stats">
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=purwocode&show_icons=true&theme=github_dark" alt="GitHub Stats">
       </a>
     </td>
   </tr>
   <tr>
-    <td colspan="2" align="center">
+    <td align="center" colspan="2">
       <a href="https://github.com/purwocode">
-        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=purwocode&layout=compact&theme=transparent" alt="Top Languages">
+        <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=purwocode&theme=github_dark" alt="GitHub Streak">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <a href="https://github.com/purwocode">
+        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=purwocode&layout=compact&theme=github_dark" alt="Top Languages">
       </a>
     </td>
   </tr>
