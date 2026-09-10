@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td align="center" width="50%">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70000&multiline=true&width=435&height=100&lines=hi%2C+im+purwocode+;I'm+just+a+young+man+with+a+small+dream." alt="Typing SVG" /></a>
+    <a href="https://github.com/purwocode"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70000&multiline=true&width=435&height=100&lines=hi%2C+im+purwocode+;I'm+just+a+young+man+with+a+small+dream." alt="Typing SVG" /></a>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/purwocode">
